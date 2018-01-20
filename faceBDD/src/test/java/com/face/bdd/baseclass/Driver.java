@@ -108,7 +108,7 @@ public boolean isSearchTextpresent(){
 }
 
 public static void OpenURL() throws MalformedURLException{
-	initialiseDriver("Firefox");
+	initialiseDriver("Chrome");
 	driver.get("http://facebook.com");
 	//driver.manage().window().maximize();
 }
