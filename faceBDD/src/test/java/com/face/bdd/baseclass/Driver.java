@@ -54,7 +54,7 @@ public class Driver {
 			driver = new FirefoxDriver(capabilities);*/
 			
 		} else if(browser.equalsIgnoreCase("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\pravi\\Desktop\\faceBDD\\Browsers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\kowsalya\\faceBDD\\Browsers\\chromedriver.exe");
 			ChromeOptions option = new ChromeOptions();
 			option.addArguments("disable-extension"); 
 			option.addArguments("--disable-infobars");
